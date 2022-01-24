@@ -17,6 +17,10 @@
 		680F489A279C491A009C5295 /* ContactsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F4897279C491A009C5295 /* ContactsItemView.swift */; };
 		680F489C279C4D94009C5295 /* ContactsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F489B279C4D94009C5295 /* ContactsListView.swift */; };
 		680F489E279C4DF2009C5295 /* ContactsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F489D279C4DF2009C5295 /* ContactsDetailView.swift */; };
+		68C2A5C3279D9079002DC57B /* DiamondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2A5C2279D9079002DC57B /* DiamondView.swift */; };
+		68C2A5C5279D95BA002DC57B /* ComposeDiamondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2A5C4279D95BA002DC57B /* ComposeDiamondView.swift */; };
+		68C2A5C7279D98CB002DC57B /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2A5C6279D98CB002DC57B /* AnimationView.swift */; };
+		68C2A5C9279D9C01002DC57B /* TransitionsAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2A5C8279D9C01002DC57B /* TransitionsAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		680F4897279C491A009C5295 /* ContactsItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsItemView.swift; sourceTree = "<group>"; };
 		680F489B279C4D94009C5295 /* ContactsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListView.swift; sourceTree = "<group>"; };
 		680F489D279C4DF2009C5295 /* ContactsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetailView.swift; sourceTree = "<group>"; };
+		68C2A5C2279D9079002DC57B /* DiamondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondView.swift; sourceTree = "<group>"; };
+		68C2A5C4279D95BA002DC57B /* ComposeDiamondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeDiamondView.swift; sourceTree = "<group>"; };
+		68C2A5C6279D98CB002DC57B /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		68C2A5C8279D9C01002DC57B /* TransitionsAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 		680F4868279C488C009C5295 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				68C2A5C6279D98CB002DC57B /* AnimationView.swift */,
 				680F489B279C4D94009C5295 /* ContactsListView.swift */,
 				680F489D279C4DF2009C5295 /* ContactsDetailView.swift */,
 				680F4897279C491A009C5295 /* ContactsItemView.swift */,
+				68C2A5C2279D9079002DC57B /* DiamondView.swift */,
+				68C2A5C4279D95BA002DC57B /* ComposeDiamondView.swift */,
+				68C2A5C8279D9C01002DC57B /* TransitionsAnimationView.swift */,
 				680F4869279C488C009C5295 /* SwiftUIDemoApp.swift */,
 				680F4893279C490E009C5295 /* SwiftUIView.swift */,
 				680F486D279C488E009C5295 /* Assets.xcassets */,
@@ -266,7 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C2A5C9279D9C01002DC57B /* TransitionsAnimationView.swift in Sources */,
 				680F489C279C4D94009C5295 /* ContactsListView.swift in Sources */,
+				68C2A5C7279D98CB002DC57B /* AnimationView.swift in Sources */,
+				68C2A5C5279D95BA002DC57B /* ComposeDiamondView.swift in Sources */,
+				68C2A5C3279D9079002DC57B /* DiamondView.swift in Sources */,
 				680F486A279C488C009C5295 /* SwiftUIDemoApp.swift in Sources */,
 				680F489E279C4DF2009C5295 /* ContactsDetailView.swift in Sources */,
 				680F489A279C491A009C5295 /* ContactsItemView.swift in Sources */,
